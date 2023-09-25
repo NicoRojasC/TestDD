@@ -1,0 +1,37 @@
+#Proof Archives
+_AW1234
+_nu1234
+
+# Virtual Enviroment python
+.venv
+*.vscode*
+.pytest*
+*pycache*
+*_pycache_*
+
+#Distribucioes de lib
+**dist**
+**.egg-info/
+*.pyc
+**_pycache_**
+**build**
+**build/lib**
+
+#Ignorar cualquir archivo TXT
+**.txt
+*.pyc
+data
+
+#Archivos de Pruebas
+test-output.xml
+report.html
+out_report.xml
+htmlcov
+.coverage
+coverage.xml
+Pipfile
+Pipfile-lock
+prueba.py
+main.py
+common_devsecops_lib/sheckov_scan.json
+_core_test*
